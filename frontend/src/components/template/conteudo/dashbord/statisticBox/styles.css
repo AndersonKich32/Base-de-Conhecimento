@@ -1,0 +1,40 @@
+.statistic-container{
+    flex: 1;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.satistic-info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-right: 10px;
+}
+
+.satistic-info h3{
+    font-size: 14px;
+    color: #686868;
+}
+
+.satistic-info h4{
+    font-size: 30px;
+    color: #191919;
+}
+
+.statistic-icon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

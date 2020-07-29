@@ -1,0 +1,19 @@
+.footer-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 85%;
+    height: 40px;  
+    background-color: #ddd;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    transition-duration: .5s;
+    z-index: 99;
+}
+
+.new-width{
+    width: 100%;
+}

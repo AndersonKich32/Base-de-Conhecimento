@@ -1,0 +1,74 @@
+.tabs-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.tabs-title{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tabs-title-ul{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: initial;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.tabs-title-ul-li{
+    min-width: 90px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.tabs-title-ul-li .button{
+    min-width: inherit;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px;
+    outline: none;  
+}
+
+.tabs-title-ul-li .btnStandard{
+    height: 30px;
+    background-color: #efefef;
+    color: rgb(16, 32, 252);
+    border: none;
+    z-index: -99;
+}
+
+.tabs-title-ul-li  .btnSelect{
+    height: 34px;
+    background-color: #fff;
+    color: #777;  
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: none; 
+    z-index: 99;     
+}
+
+.tabs-container .pages-container{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+.tabs-container .pages-container .page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+

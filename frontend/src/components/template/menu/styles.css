@@ -1,0 +1,150 @@
+.menu-container{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 205px;
+    height: 93.9%;
+    transition-duration: .5s;
+    background: linear-gradient(to right, #232526, #414345);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+.hide{
+    width: 0;
+}
+
+.box{
+    padding-left: 5px;
+    background-color: bisque;
+    width: 100%;
+    height: 20px;
+}
+
+.expande-menu{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    overflow-y: auto;
+    transition: height 1s ease-in-out;
+}
+
+.expande{
+    height: 500px;
+}
+
+.search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: 2px solid #4e4e4e;
+    background: linear-gradient(to right, #232526, #414345);
+    width: 100%;
+    height: 35px;
+    display: flex;   
+    align-items: center;  
+}
+
+.search input[type='text']{
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;   
+    margin-left: 10px;
+}
+
+.search svg{
+    margin-left: 10px;
+}
+
+
+.arrowFromLeft {
+    padding: 11px 38px;
+    overflow: hidden;
+    background-color: transparent;
+    border-bottom: 1px solid #4e4e4e;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.arrowFromLeft a{
+    text-decoration: none;
+}
+
+.arrowFromLeft div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowFromLeft button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: #6b6b6b;
+    transition: transform .3s cubic-bezier(.455,.03,.515,.955);
+}
+
+.arrowFromLeft:hover button {  
+    color: #fff; 
+    transform: translateX(15px);
+}
+
+.arrowFromLeft svg {
+    position: absolute;
+    left: 10px;
+    fill: white;
+    opacity: 0;
+    color: #6b6b6b;
+    transform: translateX(-10px);
+    transition: opacity .3s .05s cubic-bezier(.455,.03,.515,.955), transform .3s .05s cubic-bezier(.455,.03,.515,.955);
+}
+
+.arrowFromLeft:hover svg {
+    opacity: 1;
+    transform: translateX(15px);
+}
+
+.renderOptions{
+    margin-top: 27px;
+}
+
+.btn-list{   
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-list .btn-refresh{
+    width:30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all .3s ease-in-out;
+}
+
+.btn-list .btn-refresh:hover{
+    background-color: #ccc;
+}
+
+.btn-list .btn-refresh svg{
+    transition: all .3s ease-in-out;
+    color: #808080;
+}
+
+.btn-list .btn-refresh:hover svg{
+    color: rgba(0, 0, 0, 0.4);
+}
+

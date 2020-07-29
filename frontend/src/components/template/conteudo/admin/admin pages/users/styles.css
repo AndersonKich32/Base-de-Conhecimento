@@ -1,0 +1,140 @@
+.user-container{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #363636;
+    font-weight: bold; 
+}
+
+.use-form{
+    width: 100%;
+    height: 200px; 
+    font-size: 14px;
+    font-weight: bold;  
+}
+
+.use-form fieldset,
+.use-form fieldset .fieldset-box{
+    width: 100%;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.use-form fieldset input[type='checkbox']{
+    margin: 15px 12px 15px 0;
+}
+
+input::placeholder {
+   padding-left: 10px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgb(8, 142, 179);
+    border: 1px solid rgb(14, 156, 238);
+  }
+
+.fieldset-box .fieldset-input-box {
+    width: 48%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.fieldset-box .fieldset-input-box label{
+    margin-bottom: 5px;
+}
+
+.fieldset-box .fieldset-input-box input{
+   padding: 5px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: 1px solid #DDDDDD;
+   transition: all 0.30s ease-in-out;
+}
+
+.use-form .button-box .button-form{
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    color: #fff;
+}
+
+
+.table-container{
+    width: 100%;
+}
+
+.theade{
+    width: 100%;
+    height: 40px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.theade-th{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20%;
+    height: inherit;
+    padding-left: 10px;
+}
+
+.theade-th:nth-child(5){
+    padding-left: 20px;
+}
+
+.scroll-table{
+    width: 100%;
+    height: 155px;
+    overflow-y: auto;
+}
+
+.user-table{
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.user-table tr{
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #efefef;
+  }
+
+.user-table tr:hover{
+    background-color: #ddd;
+}
+
+.user-table tr td{
+    width: 20%;
+    height: inherit;
+    padding-left: 10px;
+}
+
+.tbody-button-box{
+    display: flex;
+}
+
+.tbody-button-icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+
